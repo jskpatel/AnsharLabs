@@ -1,0 +1,143 @@
+@font-face {font-family: Montserrat-black;src: url(../fonts/Montserrat-Black.ttf);}
+@font-face {font-family: Montserrat-bold;src: url(../fonts/Montserrat-Bold.ttf);}
+@font-face {font-family: Montserrat-sbold;src: url(../fonts/Montserrat-SemiBold.ttf);}
+@font-face {font-family: Montserrat;src: url(../fonts/Montserrat-Medium.ttf);}
+@font-face {font-family: Montserrat-400;src: url(../fonts/Montserrat-Light.ttf);}
+@font-face {font-family: Montserrat-300;src: url(../fonts/Montserrat-Thin.ttf);}
+html {font-size: 10px;}
+*:hover, a:hover{outline:none; text-decoration: none;}
+body {font-size: 1.6rem;background: #fff;font-family: Montserrat;letter-spacing: 0.1rem;}
+.fContainer {max-width: 1920px;width: 100%;}
+.bContainer {max-width: 1850px;width: 100%;}
+.container {max-width: 1440px;}
+.fullWidth,.container-fluid {float: left;width: 100%;}
+.main-banner-img {height: calc(100vh - 5rem);width: 100%;object-fit: cover;object-position: center;}
+
+/* Navigation */
+.navbar-nav .nav-item {padding: 0 1rem;}
+.navbar-nav .nav-link {color: rgba(255, 255, 255, 0.5);letter-spacing: 0.05em;font-size: 1.4rem;line-height: 1.7rem;}
+.navbar-nav .active .nav-link {color: #fff;}
+.ft-bg {background: rgba(124, 116, 190, 0.5);}
+
+/* Main Banner */
+.main-banner .overlay {position: absolute;height: 100%;background: linear-gradient( 90deg, rgba(233, 186, 214, 0.97) 0%, rgba(221, 194, 207, 0.660411) 41.73%, rgba(196, 196, 196, 0) 100%);width: 100%;max-width: 75rem;}
+.mb-content {bottom: 16rem;float: left;width: 100%;}
+.mb-we-build{background: linear-gradient(0deg, rgba(41, 56, 75, 0.85), rgba(41, 56, 75, 0.85));border-radius: 4rem;max-width: 17.6rem;width: 100%;display: inline-block;color: #FFFFFF;padding: 1rem 0;letter-spacing: 0.25em;}
+.mb-digital-expr{text-shadow: 0 0 2.5rem rgb(0 0 0 / 15%);color: #FFFFFF;font-size: 10rem;line-height: 9.5rem;font-family: 'Montserrat-sbold';}
+
+/* End 2 End Concept */
+.end2end-concept {color: #FFFFFF;font-size: 2.6rem;line-height: 3.2rem;background: #7C74BE;font-family: 'Montserrat-400';padding: 7.2rem 0;}
+.end2end-concept span {float: left;width: 100%;font-size: 1.6rem;line-height: 2rem;letter-spacing: 0.75rem;font-family: 'Montserrat-sbold';margin-top: 2rem;}
+.ec-next-arrow {top: -4.5rem;left: 0;}
+.ec-next-arrow .arrow-down-white{transform: translateX(-50%);left: 50%;}
+
+/* NO section */
+.no-section {background: url(../images/no-section.jpg)no-repeat;padding-bottom: 13rem;padding-top: 10rem;background-size: cover; background-position: center;}
+.no-section .overlay{background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.07) 100%); position: absolute;height: 100%;width: 100%; left:0; right: 0; top:0;}
+.ns-heading {color: #535E69;font-size: 10rem;line-height: 12rem;font-family: 'Montserrat-bold';margin-bottom: 3rem;}
+.ns-heading:after {content: '';width: 5.5rem;height: .2rem;background: #535E69;position: absolute;bottom: 0;left: 50%;transform: translateX(-50%);}
+.ns-not-eng-shop{color: #535E69;letter-spacing: 0.6rem;line-height: 2rem;font-family: 'Montserrat-bold'; margin-bottom: 10rem;}
+.ns-concept{color: #535E69;font-size: 2.4rem;line-height: 2.9rem;letter-spacing: 0.9rem;font-family: 'Montserrat-bold'; margin-bottom: 1.5rem;}
+.ns-tech-make{font-family: 'Montserrat-bold';color: #8576C9;letter-spacing: 0.5rem;font-size: 1.2rem;line-height: 1.5rem;}
+.ns-next-arrow{bottom: 0;left: 0;}
+.ns-next-arrow .arrow-down-white{transform: translateX(-50%);left: 50%;}
+
+/* Brand Logos */
+.brand-logos {padding-top: 7rem;}
+.bLogo {width: 100%;float: left;max-width: 20%;display: flex;justify-content: center;align-items: center;margin-bottom: 4rem;}
+.brand-logos .bl-bg{background: url(../images/1.png) no-repeat; background-position: right bottom; padding-bottom: 21rem;}
+.few-experience{font-size: 2rem; font-family: Montserrat-400;line-height: 2.4rem;color: #363A3E;margin-bottom: 7rem;}
+.few-experience span {background: linear-gradient(0deg, #7C74BE, #7C74BE);border-radius: 4rem;color: #FFFFFF;font-size: 2rem;line-height: 4rem;display: inline-block;width: 100%;max-width: 11.7rem;}
+.brand-logo-lists {margin-bottom: 3rem;}
+.bl-startups{font-size: 2rem;line-height: 2.4rem;letter-spacing: 0.6rem;color: #535E69;font-family: Montserrat-Bold; margin-bottom: 6rem;}
+.bl-categories{font-size: 2rem;line-height: 2.4rem;color: #4F5356;font-family: Montserrat-400;margin-bottom: 7rem;}
+.bl-cat-list{color: #262626; letter-spacing: 0.25em; font-family: Montserrat-sbold;}
+.bl-cat-list li{position: relative;}
+.bl-cat-list li {padding: 0 50px 0 70px;margin: 0 !important;}
+.bl-cat-list li:first-child {padding-left: 0;}
+.bl-cat-list li:last-child {padding-right: 0;}
+.bl-cat-list li + li:before {content: '';height: 10px;width: 10px;border-radius: 100%;background: #9D95C2;position: absolute;top: .6rem;left: 0;}
+
+/* Get Stuff Done */
+.get-stuff-done {background: url(../images/get-stuff-done.png) no-repeat;background-position: center;background-attachment: fixed;padding: 7.4rem 0;font-size: 2rem; line-height: 2.4rem; letter-spacing: 0.5rem; color: #E4E4E4;}
+
+/* We Are */
+.we-are {background: url(../images/we-are-bg.jpg) no-repeat;background-size: cover; background-position: center; padding-top: 11rem;padding-bottom: 8rem;}
+.wa-heading{font-family: Montserrat-Bold;font-size: 6rem;line-height: 7.3rem;color: #CACACA;letter-spacing: 0.1rem;text-transform: uppercase;margin-bottom: 4rem;}
+.wa-text{color: #7C74BE;letter-spacing: 0.18em;font-family: Montserrat-400;max-width: 88rem;margin-bottom: 8rem;}
+.wa-tab {margin-bottom: 9rem;}
+.nav-tabs{border: 0;padding-left: 6.5rem;}
+
+.wa-tab-content-div{width: calc(100% - 624px);height: 100%;}
+.wa-tab-contents{display: flex; align-items: center;width: calc(100% - 624px); padding-right: 2rem; justify-content: flex-end;}
+.wa-tab-c-effect:after {content: ''; background: url(../images/wa-tab-saperator-vertical.png) no-repeat; width: .2rem;height: 100%;float: right; right: 0;top: 0;bottom: 0;display: flex;justify-content: center;align-items: center; position: absolute;}
+.wa-tab-contents>.active {display: block;color: #B4B4B4;font-size: 1.3rem;line-height: 2.4rem;text-align: right;letter-spacing: 0.1rem;text-transform: capitalize;font-family: 'Montserrat-400'; max-width: 45.5rem; width: 100%; padding-top: 9rem;}
+
+.we-are-logo {left: 0;top: 90px;}
+.wa-content-text {visibility: hidden;}
+.wa-tab-c-effect .wa-content-text {visibility: visible;}
+.wa-tab-c-effect .we-are-logo {left: -12.5rem; opacity: 0.3;}
+
+.wa-tab-listing{width: 624px;}
+.wa-tab-list .nav-item{float:left; width:100%;min-height: 8rem;}
+.wa-tab-list .nav-link{position: relative;color: #346EC6;letter-spacing: 0.4em;text-transform: uppercase;font-size: 20px;line-height: 50px;font-family: Montserrat-Bold; padding:0; border:0;}
+.wa-tab-list .nav-link.active {background-color: transparent;border:0;color: #346EC6;}
+.wa-tab-list:hover .nav-link{color: rgba(52, 110, 198, 0.32);}
+.wa-tab-list:hover .nav-link.active, .wa-tab-list:hover .nav-link:hover{color: #4F95FF;text-shadow: 0px 0px 8px #346EC6;}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{border: 0;}
+.wa-tab-list .nav-link.active:after, .wa-tab-list .nav-link:hover:after {content: '';height: 2px;width: 50px;background: #F45761;float: left;position: absolute;left: 0;bottom: 0;}
+.wa-about-founder a{font-size: 1.7rem;line-height: 2.1rem;letter-spacing: 0.2rem;text-transform: uppercase;color: #8B84AB;margin-right: 9rem;}
+.wa-next-arrow {bottom: -4.6rem;left: 0;right: 0;z-index: 9;}
+.we-are .arrow-down-white {transform: translateX(-50%);left: 50%;}
+
+/* Who We Are */
+.wwa-heading {color: #CACACA;font-size: 60px;line-height: 73px;font-family: 'Montserrat-bold';letter-spacing: 0.1em;}
+.wwa-caption, .wwa-social {color: #FFFFFF;letter-spacing: 0.1em;font-family: 'Montserrat-300';font-size: 13px;line-height: 24px;}
+.wwa-caption span, .wwa-social span{font-family: 'MONTSERRAT-400';}
+.wwa-para{color: #B4B4B4;font-size: 13px;line-height: 24px;font-family: 'Montserrat-300';}
+
+
+/* Our Philosophy */
+.our-philosophy {background: linear-gradient(98.03deg, #262237 2.52%, #172663 48.51%, #27215C 66.53%, #2B205A 72.14%, #301E57 83.46%); padding-top: 15rem; padding-bottom: 17rem;}
+.op-round-bg{background: url(../images/op-round-bg.png) no-repeat; background-position: center;}
+.op-heading {color: #DB49FF;text-shadow: 0px 0px 10px #d14eff;font-size: 40px;line-height: 49px;font-family: 'Montserrat-400';letter-spacing: 0.1em; margin-bottom: 2.5rem;}
+.op-caption {color: #B0B0B0;font-size: 20px;line-height: 24px;letter-spacing: 0.4em; margin-bottom: 17rem;font-family: 'Montserrat-bold'; padding-bottom: 1.5rem;}
+.op-caption:after {content: '';width: 5rem;height: .3rem;background: #DB49FF;position: absolute;left: 50%;transform: translateX(-50%);bottom: 0;}
+.op-rt-heading {color: #C8C8C8;font-size: 2rem;line-height: 2.4rem;margin-bottom: 1.5rem;}
+.op-rt-text {color: #9A98B1;font-size: 14px;line-height: 24px;}
+
+.op-cols {max-width: 1140px;}
+.op-col {float: left;width: 33.33%;}
+.op-col-left .op-row, .op-col-right .op-row {margin-bottom: 7rem;}
+.op-row-icon {min-width: 4.5rem;}
+.op-next-arrow {bottom: -4.6rem;left: 0;right: 0;z-index: 9;}
+.our-philosophy .arrow-down-white {transform: translateX(-50%);left: 50%;}
+
+/* OUR WheelHouse */
+.our-wheelhouse {background: url(../images/our-wheelhouse.png) no-repeat;background-attachment: fixed; padding: 12rem 0;}
+.our-wheelhouse .overlay {background: linear-gradient( 180deg, rgba(41, 65, 78, 0.64) 0%, rgba(91, 57, 112, 0.35) 100%);float: left;width: 100%;position: absolute;top: 0;bottom: 0;}
+.our-wheelhouse .container{position: relative; z-index:9;}
+.ow-heading{color: #2DBDF2;font-family: Montserrat-bold;font-size: 2.4rem; line-height: 2.9rem; letter-spacing: .4rem; margin-bottom: 5rem;}
+.owb-row{max-width: 90rem;}
+.ow-box {width: 366px;height: 200px;border: .2rem solid #fff;border-radius: .5rem;color: #fff; padding: 2rem; margin: 3rem 4rem;}
+.owb-content {font-size: 2rem;line-height: 2.4rem;}
+.owb-content-img {margin-top: 3rem;}
+
+/* few facts */
+.few-facts {background: url(../images/few-facts.jpg) no-repeat; background-size: cover; padding: 10rem 0 14rem;}
+.few-facts .container {max-width: 1270px;}
+.ff-heading {font-size: 6rem;line-height: 7.3rem;font-family: Montserrat-bold; margin-bottom: 8rem; color: #3A3A3A; letter-spacing: .5rem; padding-left: 1rem;}
+.ff-content {max-width: 70%;}
+.ff-content span {display: none;}
+.ff-content li{position: relative;text-transform: uppercase;padding: 1.5rem; min-height: 8rem; letter-spacing: .5rem; font-family: Montserrat-bold; color: #4B4856;}
+.ff-content li:hover {background: linear-gradient(90deg, #5059A9 0.46%, rgba(166, 81, 165, 0.0290259) 93.3%, rgba(169, 80, 165, 0) 100%); color: #fff; cursor:pointer;}
+.ff-content li:hover span {display: block; text-transform: capitalize; font-size: 1.4rem; font-family: Montserrat-400; color: #CFCFCF; margin-top: .5rem;}
+.ff-content li:hover:before {background: url(../images/crown.png);content: '';left: -4.6rem;width: 2.4rem;height: 2.2rem;top: 3rem;position: absolute;display: inline-block;}
+
+/* Footer Script */
+.contact-us {background: #25233B; padding: 8rem 0 3.5rem 0;}
+.copyright {background: #000000;min-height: 9.1rem;}
+.cu-heading {font-family: Montserrat-sbold; color: #DB49FF;font-size: 30px;line-height: 37px;text-shadow: 0px 0px 10px #d14eff;}
+.cu-logo{background: url(../images/greyFooterLogo.png) no-repeat;background-position: center;min-height: 17rem; display: flex; justify-content: center; align-items: center;margin-bottom: 2rem; padding-top: 2rem;}
+.contact-us,.contact-us a {font-family: Montserrat-300;font-size: 2rem;line-height: 2.4rem;color: #E8E8E8;}
+.f-email a { margin-bottom: 2rem; display: inline-block; }
