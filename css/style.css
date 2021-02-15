@@ -1,3 +1,4 @@
+@font-face {font-family: NightLightOutline;src: url(../fonts/NightLightOutline.otf);}
 @font-face {font-family: Montserrat-black;src: url(../fonts/Montserrat-Black.ttf);}
 @font-face {font-family: Montserrat-bold;src: url(../fonts/Montserrat-Bold.ttf);}
 @font-face {font-family: Montserrat-sbold;src: url(../fonts/Montserrat-SemiBold.ttf);}
@@ -59,25 +60,25 @@ body {font-size: 1.6rem;background: #fff;font-family: Montserrat;letter-spacing:
 .bl-cat-list li + li:before {content: '';height: 10px;width: 10px;border-radius: 100%;background: #9D95C2;position: absolute;top: .6rem;left: 0;}
 
 /* Get Stuff Done */
-.get-stuff-done {background: url(../images/get-stuff-done.png) no-repeat;background-position: center;background-attachment: fixed;padding: 7.4rem 0;font-size: 2rem; line-height: 2.4rem; letter-spacing: 0.5rem; color: #E4E4E4;}
+.get-stuff-done {background: url(../images/get-stuff-done.png) no-repeat;background-position: center;background-size: cover;background-attachment: fixed;padding: 7.4rem 0;font-size: 2rem; line-height: 2.4rem; letter-spacing: 0.5rem; color: #E4E4E4;}
+.get-stuff-done > span {font-family: NightLightOutline;text-shadow: 0px 2px 2px rgb(209 64 195 / 79%);color: #FF13E7;font-size: 60px;line-height: 60px; margin: 0 3rem; letter-spacing: 2rem;}
 
 /* We Are */
-.we-are {background: url(../images/we-are-bg.jpg) no-repeat;background-size: cover; background-position: center; padding-top: 11rem;padding-bottom: 8rem;}
-.wa-heading{font-family: Montserrat-Bold;font-size: 6rem;line-height: 7.3rem;color: #CACACA;letter-spacing: 0.1rem;text-transform: uppercase;margin-bottom: 4rem;}
+.wa-wwa{width: 200vw;}
+.we-are {background: url(../images/we-are-bg.jpg) no-repeat;background-size: cover; background-position: center; /* padding-top: 11rem;padding-bottom: 8rem; overflow-x: hidden; */ }
+.overflow-x-hidden {overflow-x: hidden;}
+.wa-heading{font-family: Montserrat-Bold;font-size: 6rem;line-height: 7.3rem;color: #CACACA;letter-spacing: 0.1rem;text-transform: uppercase;margin-bottom: 4rem;padding-top: 11rem;}
 .wa-text{color: #7C74BE;letter-spacing: 0.18em;font-family: Montserrat-400;max-width: 88rem;margin-bottom: 8rem;}
 .wa-tab {margin-bottom: 9rem;}
 .nav-tabs{border: 0;padding-left: 6.5rem;}
-
 .wa-tab-content-div{width: calc(100% - 624px);height: 100%;}
 .wa-tab-contents{display: flex; align-items: center;width: calc(100% - 624px); padding-right: 2rem; justify-content: flex-end;}
 .wa-tab-c-effect:after {content: ''; background: url(../images/wa-tab-saperator-vertical.png) no-repeat; width: .2rem;height: 100%;float: right; right: 0;top: 0;bottom: 0;display: flex;justify-content: center;align-items: center; position: absolute;}
 .wa-tab-contents>.active {display: block;color: #B4B4B4;font-size: 1.3rem;line-height: 2.4rem;text-align: right;letter-spacing: 0.1rem;text-transform: capitalize;font-family: 'Montserrat-400'; max-width: 45.5rem; width: 100%; padding-top: 9rem;}
-
-.we-are-logo {left: 0;top: 90px;}
+.we-are-logo {left: 0;top: 11rem;}
 .wa-content-text {visibility: hidden;}
 .wa-tab-c-effect .wa-content-text {visibility: visible;}
-.wa-tab-c-effect .we-are-logo {left: -12.5rem; opacity: 0.3;}
-
+.wa-tab-c-effect .we-are-logo {left: -16rem; opacity: 0.3;}
 .wa-tab-listing{width: 624px;}
 .wa-tab-list .nav-item{float:left; width:100%;min-height: 8rem;}
 .wa-tab-list .nav-link{position: relative;color: #346EC6;letter-spacing: 0.4em;text-transform: uppercase;font-size: 20px;line-height: 50px;font-family: Montserrat-Bold; padding:0; border:0;}
@@ -91,11 +92,17 @@ body {font-size: 1.6rem;background: #fff;font-family: Montserrat;letter-spacing:
 .we-are .arrow-down-white {transform: translateX(-50%);left: 50%;}
 
 /* Who We Are */
-.wwa-heading {color: #CACACA;font-size: 60px;line-height: 73px;font-family: 'Montserrat-bold';letter-spacing: 0.1em;}
-.wwa-caption, .wwa-social {color: #FFFFFF;letter-spacing: 0.1em;font-family: 'Montserrat-300';font-size: 13px;line-height: 24px;}
+.wwa-section{padding-top:0;padding-bottom: 0;}
+#who-we-are-section > .row {height: 100%;}
+.who-we-are{width: calc(100% - 44%);padding-right: 6rem;padding-top: 11rem;}
+.wwa-heading {color: #CACACA;font-size: 60px;line-height: 73px;font-family: 'Montserrat-bold';letter-spacing: 0.1em;margin-bottom: 3.5rem;}
+.wwa-caption, .wwa-social {color: #FFFFFF;letter-spacing: 0.1em;font-family: 'Montserrat-300';font-size: 13px;line-height: 24px;margin-bottom: 3rem;}
 .wwa-caption span, .wwa-social span{font-family: 'MONTSERRAT-400';}
 .wwa-para{color: #B4B4B4;font-size: 13px;line-height: 24px;font-family: 'Montserrat-300';}
-
+.who-we-are-back {margin-top: 26.5rem;margin-bottom: 8rem;}
+.who-we-are-back a {color: #D85154;font-size: 1.7rem;line-height: 2.1rem;letter-spacing: 0.1em;margin-right: 22rem;}
+.wwa-client-pic {width: 100%; /* height: 100vh; */ max-width:44%; /* max-width: 87rem;*/}
+.wwa-client-pic img {width: 100%;object-fit: cover;height: 100%;object-position: center bottom;}
 
 /* Our Philosophy */
 .our-philosophy {background: linear-gradient(98.03deg, #262237 2.52%, #172663 48.51%, #27215C 66.53%, #2B205A 72.14%, #301E57 83.46%); padding-top: 15rem; padding-bottom: 17rem;}
@@ -105,7 +112,6 @@ body {font-size: 1.6rem;background: #fff;font-family: Montserrat;letter-spacing:
 .op-caption:after {content: '';width: 5rem;height: .3rem;background: #DB49FF;position: absolute;left: 50%;transform: translateX(-50%);bottom: 0;}
 .op-rt-heading {color: #C8C8C8;font-size: 2rem;line-height: 2.4rem;margin-bottom: 1.5rem;}
 .op-rt-text {color: #9A98B1;font-size: 14px;line-height: 24px;}
-
 .op-cols {max-width: 1140px;}
 .op-col {float: left;width: 33.33%;}
 .op-col-left .op-row, .op-col-right .op-row {margin-bottom: 7rem;}
